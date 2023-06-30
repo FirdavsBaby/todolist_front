@@ -1,0 +1,105 @@
+@media (max-width: 1920px) {
+    section.container {
+        width: 100%;
+        form {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            input {
+                font-size: 30px;
+                padding: 10px 10px;
+            }
+            .events {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 30px;
+                button {
+                    width: 35%;
+                    padding: 10px;
+                    font-size: 30px;
+                    border: 0;
+                    background-color: var(--btn);
+                    border-radius: 5px;
+                    transition: all ease-in-out 0.4s;
+                    &:hover {
+                        background-color: var(--hover);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 980px) {
+    section.container {
+        width: 100%;
+        form {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            input {
+                font-size: 30px;
+                padding: 10px 10px;
+            }
+            .events {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-size: 30px;
+                gap: 10px;
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 30px;
+                    border: 0;
+                    background-color: var(--btn);
+                    border-radius: 5px;
+                    transition: all ease-in-out 0.4s;
+                    &:hover {
+                        background-color: var(--hover);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    section.container {
+        width: 100%;
+        form {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            input {
+                font-size: 20px;
+                padding: 10px 10px;
+            }
+            .events {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-size: 20px;
+                gap: 10px;
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 20px;
+                    border: 0;
+                    background-color: var(--btn);
+                    border-radius: 5px;
+                    transition: all ease-in-out 0.4s;
+                    &:hover {
+                        background-color: var(--hover);
+                    }
+                }
+            }
+        }
+    }
+}

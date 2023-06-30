@@ -1,0 +1,26 @@
+@media (max-width: 1920px) {
+    nav.container {
+        width: 100%;
+        padding: 15px;
+        background-color: var(--main);
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        left: 0;
+        top: 0;
+        #logo {
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+        }
+        button {
+            padding: 10px;
+            border: 0;
+            border-radius: 10px;
+            background-color: var(--btn);
+            transition: all ease-in-out 0.4s;
+            &:hover {
+                background-color: var(--hover);
+            }
+        }
+    }
+}

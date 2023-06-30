@@ -1,0 +1,102 @@
+@media (max-width: 1920px) {
+    section.container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .box {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 2.5rem;
+            h1 {
+                font-size: 70px;
+            }
+            #link {
+                width: 40%;
+                font-size: 30px;
+                text-align: center;
+                padding: 15px 0;
+                border-radius: 30px;
+                color: white;
+                background-color: var(--main);
+                transition: all ease-in-out 0.4s;
+                &:hover {
+                    background-color: var(--hover);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    section.container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .box {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1.5rem;
+            h1 {
+                font-size: 40px;
+            }
+            #link {
+                width: 40%;
+                font-size: 20px;
+                text-align: center;
+                padding: 8px 0;
+                border-radius: 30px;
+                color: white;
+                background-color: var(--main);
+                transition: all ease-in-out 0.4s;
+                &:hover {
+                    background-color: var(--hover);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    section.container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1.5rem;
+            h1 {
+                font-size: 30px;
+            }
+            #link {
+                width: 60%;
+                font-size: 15px;
+                text-align: center;
+                border-radius: 30px;
+                color: white;
+                background-color: var(--main);
+                transition: all ease-in-out 0.4s;
+                &:hover {
+                    background-color: var(--hover);
+                }
+            }
+        }
+    }
+}

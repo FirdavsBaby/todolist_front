@@ -1,0 +1,21 @@
+* {
+  font-family: 'Belanosima', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #20dace;
+  --hover: #93e9a7;
+  --btn: #82e882
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+}
